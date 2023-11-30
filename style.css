@@ -1,0 +1,69 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;    /* Indica la manera en que se acomodarán las boxes */
+    /* margin: 40px 30px; */
+    justify-content: center;
+    color: #333;
+    font-family: sans-serif;
+}
+
+.flex-item {
+    flex-grow: 1;   /* Indica el tamaño que crece de manera proporcional */
+    /* flex-basis: 300px;  Indica el tamaño de la box, es como si se utilizara el box-sizing */
+    margin: 20px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 7px;
+    max-width: 340px;
+    padding: 20px 20px;
+}
+.flex-item:hover {
+    border-color: #666;
+    box-shadow: 0px 0px 13px #777;  /* x | y | blur | color */
+}
+.flex-item:focus {
+    border-color: #555;
+    box-shadow: 0px 0px 13px #444;
+}
+
+h3 {
+    color: #566;
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+p b {
+    color: #3c7c25;
+}
+
+.llave-img {
+    width: 300px;
+}
+
+/* .flex-container input {
+    display: none;
+} */
+
+form {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 45px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background: #3c7c25;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    padding: 12px 28px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
